@@ -1,7 +1,7 @@
 # Get data from user
-milesDriven=int (input('Enter miles driven: '))
+milesDriven=float (input('Enter miles driven: '))
 milesDriven=float(milesDriven)
-gallonsUsed=int (input('Enter gallons used: '))
+gallonsUsed=float (input('Enter gallons used: '))
 gallonsUsed=float(gallonsUsed)
 
 # Calculation
