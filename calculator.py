@@ -1,12 +1,10 @@
 # Get data from user
-milesDriven=float (input('Enter miles driven: '))
-milesDriven=float(milesDriven)
-gallonsUsed=float (input('Enter gallons used: '))
-gallonsUsed=float(gallonsUsed)
+FarTemp=int (input('Enter Temperature in farenheit: '))
+FarTemp=float(FarTemp)
 
 # Calculation
-mpg=milesDriven/gallonsUsed
+Temp=(FarTemp -32)*5/9
 
 # Print output
-print('Your Miles Per Gallon:', mpg)
+print('Temperature in Celsius:', Temp)
 
